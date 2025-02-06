@@ -15,7 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="customOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapGeneration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -23,5 +38,25 @@
     <ClInclude Include="Libraries\include\stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="customOperations.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mapGeneration.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="combatWIP.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="entities.h">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

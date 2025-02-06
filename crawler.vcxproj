@@ -135,10 +135,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="customOperations.cpp" />
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="entities.cpp" />
+    <ClCompile Include="mapGeneration.cpp" />
+    <ClCompile Include="random.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="combatWIP.h" />
+    <ClInclude Include="customOperations.h" />
+    <ClInclude Include="display.h" />
+    <ClInclude Include="mapGeneration.h" />
+    <ClInclude Include="random.h" />
     <ClInclude Include="Libraries\include\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="entities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
